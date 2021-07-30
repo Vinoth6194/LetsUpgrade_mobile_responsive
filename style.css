@@ -2,10 +2,11 @@
 .para {
   color: rgb(255, 97, 1);
   background-color: blue;
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
   border-radius: 5px;
-  padding: 5px 10px 15px 20px;
-  margin-top: 70px;
+  /* padding: 5px 10px 15px 20px;
+  margin-top: 70px; */
+  text-align: center;
 }
 body {
   /* background-color: aquamarine; */
@@ -14,8 +15,9 @@ body {
 .para2 {
   color: rgb(18, 1, 255);
   background-color: rgb(255, 0, 0);
-  border: 2px dotted yellow;
+  /* border: 2px dotted yellow; */
   border-radius: 5px;
-  padding: 25px 10px 35px 20px;
-  margin: 40px 65px 60px 55px;
+  /* padding: 25px 10px 35px 20px;
+  margin: 40px 65px 60px 55px; */
+  text-align: right;
 }

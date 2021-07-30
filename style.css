@@ -5,8 +5,17 @@
   border: 2px dotted red;
   border-radius: 5px;
   padding: 5px 10px 15px 20px;
+  margin-top: 70px;
 }
 body {
   /* background-color: aquamarine; */
   background-image: url('/images//image2.jpg');
+}
+.para2 {
+  color: rgb(18, 1, 255);
+  background-color: rgb(255, 0, 0);
+  border: 2px dotted yellow;
+  border-radius: 5px;
+  padding: 25px 10px 35px 20px;
+  margin: 40px 65px 60px 55px;
 }

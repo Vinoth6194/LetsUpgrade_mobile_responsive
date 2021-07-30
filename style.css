@@ -2,6 +2,7 @@
 .para {
   color: rgb(255, 97, 1);
   background-color: blue;
+  border: 2px dotted red;
 }
 body {
   /* background-color: aquamarine; */

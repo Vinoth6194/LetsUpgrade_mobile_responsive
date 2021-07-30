@@ -8,10 +8,10 @@
   margin-top: 70px; */
   text-align: center;
 }
-body {
-  /* background-color: aquamarine; */
+/* body {
+  background-color: aquamarine;
   background-image: url('/images//image2.jpg');
-}
+} */
 .para2 {
   color: rgb(18, 1, 255);
   background-color: rgb(255, 0, 0);
@@ -20,4 +20,18 @@ body {
   /* padding: 25px 10px 35px 20px;
   margin: 40px 65px 60px 55px; */
   text-align: right;
+}
+a {
+  color: green;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  color: darksalmon;
+}
+a:link {
+  color: darkcyan;
 }

@@ -1,4 +1,9 @@
 /* comments in css */
 .para {
-  color: red;
+  color: rgb(255, 97, 1);
+  background-color: blue;
+}
+body {
+  /* background-color: aquamarine; */
+  background-image: url('/images//image2.jpg');
 }

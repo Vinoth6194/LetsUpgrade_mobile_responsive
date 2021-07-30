@@ -3,6 +3,8 @@
   color: rgb(255, 97, 1);
   background-color: blue;
   border: 2px dotted red;
+  border-radius: 5px;
+  padding: 5px 10px 15px 20px;
 }
 body {
   /* background-color: aquamarine; */

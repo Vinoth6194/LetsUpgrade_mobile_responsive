@@ -10,3 +10,31 @@
   background-size: cover;
   background-position: center;
 }
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span {
+  color: #f9004d;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+ul li {
+  display: inline-block;
+  padding: 10px 30px;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #f9004d;
+}

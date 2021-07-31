@@ -57,11 +57,16 @@
         background-color: lightslategray;
         color: black;
       }
+      h2{
+        color:salmon;
+        font-weight:800;
+      }
     </style>
   </head>
   <body>
     <h3>Assignment - Day 2</h3>
-    <div style="border: 2px solid gray">
+    <h2>Welcome to my blog</h4>
+    <div style="border: 2px solid gray;margin-bottom: 6px;">
       <img
         src="https://www.html5rocks.com/static/demos/svgmobile_fundamentals/images/html5-1920x1200.png"
         alt="HTML5_image"
@@ -99,5 +104,34 @@
         <button id="btn_clear">Clear</button>
       </div>
     </div>
+    <div style="border: 2px solid gray">
+      <img
+        src="https://wallpapercave.com/wp/wp2742472.jpg"
+        alt="HTML5_image"
+      />
+      <div>
+        <p class="blog_content">
+          Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+
+CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+        </p>
+      </div>
+      <div style="padding-left: 10px">
+        <h5>
+          <span class="comment">Comment</span>:<span class="comment__text"
+            >Thanks for the info</span
+          >
+        </h5>
+      </div>
+      <div id="comment_box">
+        <p style="font-weight: bold; color: brown">Enter your comment below:</p>
+        <textarea id="w3review" name="w3review" rows="4" cols="50"> </textarea>
+        <button id="btn_submit">Add comment</button>&nbsp;
+        <button id="btn_clear">Clear</button>
+      </div>
+    </div>
+    </div>
+    
+
   </body>
 </html>

@@ -61,6 +61,21 @@
         color:salmon;
         font-weight:800;
       }
+     form{
+       margin-left:530px;
+     }
+     #btn_sub{
+      background-color:peru;
+        color: black;
+        border: none;
+        color: white;
+        cursor: pointer;
+        padding: 8px;
+        margin-bottom: 8px;
+     }
+     form > input{
+       padding: 8px;
+     }
     </style>
   </head>
   <body>
@@ -89,6 +104,8 @@
           software. HTML5 is intended to subsume not only HTML 4 but also XHTML
           1 and DOM Level 2 HTML.[6]
         </p>
+        <div style="padding-left: 10px;">For more info,visit <span><a href="https://en.wikipedia.org/wiki/HTML5">Html5 - Wikipedia</a></span>
+        </div>      
       </div>
       <div style="padding-left: 10px">
         <h5>
@@ -115,6 +132,8 @@
 
 CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
         </p>
+        <div style="padding-left: 10px;">For more info,visit <span><a href="https://en.wikipedia.org/wiki/CSS">CSS - Wikipedia</a></span>
+        </div> 
       </div>
       <div style="padding-left: 10px">
         <h5>
@@ -132,6 +151,16 @@ CSS is designed to enable the separation of presentation and content, including 
     </div>
     </div>
     
+<div>
+  <h3>Subscribe to our weekly newsletter</h3>
+  <div>
+    <form>
+      <!-- <label >Email</label> -->
+      <input type="email" placeholder="Enter your email">
+      <button type="submit" id="btn_sub" >Subscribe</button>
+    </form>
+  </div>
+</div>
 
   </body>
 </html>

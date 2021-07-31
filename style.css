@@ -73,3 +73,27 @@ h3 {
   font-size: 25px;
   margin-bottom: 50px;
 }
+.newsletter form {
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+}
+.newsletter form input:first-child {
+  width: 100%;
+  display: inline-block;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #f9004d;
+  border-radius: 30px;
+}
+
+.newsletter form input:last-child {
+  position: absolute;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: #f9004d;
+  top: 6px;
+  right: 6px;
+  color: white;
+}

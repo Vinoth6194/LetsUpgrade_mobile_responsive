@@ -97,3 +97,13 @@ h3 {
   right: 6px;
   color: white;
 }
+.soc_icons {
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 60px;
+  margin-top: 4px;
+  color: #f9004d;
+  cursor: pointer;
+}

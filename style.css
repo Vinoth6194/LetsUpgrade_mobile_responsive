@@ -103,7 +103,11 @@ h3 {
   align-items: center;
   justify-content: space-around;
   padding-right: 60px;
-  margin-top: 4px;
+  margin-top: 6px;
   color: #f9004d;
   cursor: pointer;
+  transition: transform 0.4s;
+}
+.soc_icons i:hover {
+  transform: scale(2.1);
 }
